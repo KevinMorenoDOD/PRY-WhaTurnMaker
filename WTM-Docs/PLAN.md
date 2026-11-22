@@ -1,7 +1,7 @@
 # PLAN.md — Planes comerciales del servicio
 
 **Versión:** 0.2 (borrador para validar)
-**Relacionado con:** `ARCHITECTURE.md`, `DESIGN.md`, `Legal.md`, `README.md`
+**Relacionado con:** `ARCHITECTURE.md`, `DESIGN.md`, `Legal.md`, `../README.md`
 
 > **Todas las cifras son ilustrativas.** Salen de estimaciones de diseño (tokens, volumen) y de supuestos que **debes reemplazar con datos reales** de `llm_usage` y con las tarifas vigentes de tus proveedores (LLM, STT, VPS y Meta). No cotices sin hacerlo.
 

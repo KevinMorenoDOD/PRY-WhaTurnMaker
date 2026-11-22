@@ -4,7 +4,7 @@
 **Alcance:** SaaS multi-negocio para **cualquier negocio que agende citas** (la primera vertical son barberías).
 **Stack:** Evolution API (WhatsApp) · FastAPI · PostgreSQL · Redis · ARQ (cola) · Caddy · LLM vía OpenRouter/API directa.
 
-> Documentos relacionados: `DESIGN.md` (decisiones y reglas), `PLAN.md` (planes comerciales), `Legal.md` (aspectos legales), `README.md` (puesta en marcha).
+> Documentos relacionados: `DESIGN.md` (decisiones y reglas), `PLAN.md` (planes comerciales), `Legal.md` (aspectos legales), `../README.md` (puesta en marcha).
 > Lo que está **diferido a propósito** se lista en la sección 11.
 
 ---
@@ -524,7 +524,7 @@ services:
     restart: unless-stopped
 
   backend:
-    build: ./backend
+    build: ./WTM-Back
     command: uvicorn src.main:app --host 0.0.0.0 --port 3000
     env_file: .env
     depends_on:
@@ -533,7 +533,7 @@ services:
     restart: unless-stopped
 
   worker:
-    build: ./backend
+    build: ./WTM-Back
     command: arq src.workers.settings.WorkerSettings
     env_file: .env
     depends_on:

@@ -2,7 +2,7 @@
 
 **Versión:** 2.0 · **Fecha de revisión:** 11 de noviembre de 2026
 **Jurisdicción de referencia:** Colombia
-**Documentos relacionados:** `ARCHITECTURE.md`, `DESIGN.md`, `PLAN.md`, `README.md`
+**Documentos relacionados:** `ARCHITECTURE.md`, `DESIGN.md`, `PLAN.md`, `../README.md`
 
 > **Aviso importante:** este documento es una guía de trabajo para organizar el proyecto. **No es asesoría legal** y no reemplaza a un abogado. Las normas y las políticas de las plataformas cambian; cada punto marcado con ⚠️ debe validarse con un profesional (idealmente especializado en protección de datos y contratos de tecnología) antes de vender. Al final hay una lista de fuentes consultadas.
 
